@@ -1,0 +1,257 @@
+body {
+	text-align: center;
+	font-family: SimHei;
+	background-color: #C9F7A5;
+}
+
+h1 {
+	font-size: 3em;
+	letter-spacing: 0.5em;
+}
+
+div#picture {
+	margin: 0 auto;
+	position: relative;
+	width: 640px;
+	height: 640px;
+	/*background-image: url("img/panda.jpg");
+	background-repeat: no-repeat;
+	background-size: 600px, 600px;*/
+}
+
+div#win {
+	font-family: KaiTi;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	text-align: center;
+	width: 800px;
+	height: 30px;
+	color: #159E5B;
+	font-size: 180%;
+	font-weight: 900;
+}
+
+button {
+	opacity: 0.8;
+	margin-top: 10px;
+	width: 150px;
+	height: 40px;
+	color: white;
+	background-color: #9DCBFC;
+	font-weight: bolder;
+	font-size: 140%;
+	border: none;
+	outline:none;
+	margin-right: 40px;
+	transition-duration: 0.4s;
+}
+
+button:hover{
+	cursor: pointer;
+	opacity: 1;
+	box-shadow:-8px -8px 8px -2px #388BD9;
+	transform: scale(1.2) rotate(180deg);
+}
+
+button:hover>span{/*控制子元素*/
+	display: inline-block;/*这样就可以旋转了哈哈哈*/
+	color: #F14C0E;
+	font-weight: bolder;
+	transform: rotate(-180deg);/*保持文字不会随之旋转*/
+}
+
+.each0 {
+	background-image: url("img/0.jpg");
+}
+
+.each1 {
+	background-image: url("img/1.jpg");
+}
+
+.each2 {
+	background-image: url("img/2.jpg");
+}
+
+.each3 {
+	background-image: url("img/3.jpg");
+}
+
+.each4 {
+	background-image: url("img/4.jpg");
+}
+
+.each5 {
+	background-image: url("img/5.jpg");
+}
+
+.each6 {
+	background-image: url("img/6.jpg");
+}
+
+.each0, .each1, .each2, .each3, .each4, .each5, .each6, .each7 {
+	opacity: 0.95;
+	width: 150px;
+	height: 150px;
+	background-repeat: no-repeat;
+	background-size: 600px, 600px;
+	background-origin: border-box;
+	display: inline-block;
+	position: absolute;
+	border: #C9F7A5 solid 4px;
+	transition-duration: 0.2s;
+}
+
+.each0:hover, .each1:hover, .each2:hover, .each3:hover, .each4:hover
+.each5:hover, .each6:hover, .each7:hover {
+	overflow: hidden;
+	transform: scale(1.03) translateX(2px);
+	opacity: 1;
+	border: none;
+	border-style: none;
+}
+
+div#part1 {
+	left: 0px;
+	top: 0px;
+}
+
+div#part2 {
+	left: 150px;
+	top: 0px;
+}
+
+div#part3 {
+	left: 300px;
+	top: 0px;
+}
+
+div#part4 {
+	left: 450px;
+	top: 0px;
+}
+
+div#part5 {
+	left: 0px;
+	top: 150px;
+}
+
+div#part6 {
+	left: 150px;
+	top: 150px;
+}
+
+div#part7 {
+	left: 300px;
+	top: 150px;
+}
+
+div#part8 {
+	left: 450px;
+	top: 150px;
+}
+
+div#part9 {
+	left: 0px;
+	top: 300px;
+}
+
+div#part10 {
+	left: 150px;
+	top: 300px;
+}
+
+div#part11 {
+	left: 300px;
+	top: 300px;
+}
+
+div#part12 {
+	left: 450px;
+	top: 300px;
+}
+
+div#part13 {
+	left: 0px;
+	top: 450px;
+}
+
+div#part14 {
+	left: 150px;
+	top: 450px;
+}
+
+div#part15 {
+	left: 300px;
+	top: 450px;
+}
+
+div#part16 {
+	left: 450px;
+	top: 450px;
+}
+
+
+div.imgpos1 {
+	background-position: 0 0;
+}
+
+div.imgpos2 {
+	background-position: -150px 0px;
+}
+
+div.imgpos3 {
+	background-position: -300px 0px;
+}
+
+div.imgpos4 {
+	background-position: -450px 0px;
+}
+
+div.imgpos5 {
+	background-position: 0px -150px;
+}
+
+div.imgpos6 {
+	background-position: -150px -150px;
+}
+
+div.imgpos7 {
+	background-position: -300px -150px;
+}
+
+div.imgpos8 {
+	background-position: -450px -150px;
+}
+
+div.imgpos9 {
+	background-position: 0px -300px;
+}
+
+div.imgpos10 {
+	background-position: -150px -300px;
+}
+
+div.imgpos11 {
+	background-position: -300px -300px;
+}
+
+div.imgpos12 {
+	background-position: -450px -300px;
+}
+
+div.imgpos13 {
+	background-position: 0px -450px;
+}
+
+div.imgpos14 {
+	background-position: -150px -450px;
+}
+
+div.imgpos15 {
+	background-position: -300px -450px;
+}
+
+div.imgpos16 {
+	background-position: -450px -450px;
+	background-image: none;
+}
